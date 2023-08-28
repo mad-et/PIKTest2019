@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature", "Feature\Feature.csproj", "{4608029A-85AB-41C9-89D4-9273841A0AF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RibbonBuilder", "RibbonBuilder\RibbonBuilder.csproj", "{933B4C26-70C1-474E-9C8D-C57BC0550AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4608029A-85AB-41C9-89D4-9273841A0AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4608029A-85AB-41C9-89D4-9273841A0AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4608029A-85AB-41C9-89D4-9273841A0AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4608029A-85AB-41C9-89D4-9273841A0AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933B4C26-70C1-474E-9C8D-C57BC0550AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933B4C26-70C1-474E-9C8D-C57BC0550AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933B4C26-70C1-474E-9C8D-C57BC0550AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933B4C26-70C1-474E-9C8D-C57BC0550AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A988241A-828B-4D3B-B03E-231EF4C50C6B}
+	EndGlobalSection
+EndGlobal
