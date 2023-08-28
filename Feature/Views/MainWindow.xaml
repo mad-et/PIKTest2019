@@ -9,14 +9,6 @@
         xmlns:local="clr-namespace:Feature.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400">
-    <!--xmlns:b="http://schemas.microsoft.com/xaml/behaviors"-->
-
-    <!--<b:Interaction.Triggers>
-        <b:EventTrigger EventName="Loaded">
-            <b:InvokeCommandAction Command="{Binding FirstInitialization}"
-                                   CommandParameter="{Binding ElementName=mainWnd}"/>
-        </b:EventTrigger>
-    </b:Interaction.Triggers>-->
     <DockPanel LastChildFill="True">
         <Button  Command="{Binding DoIt}" Margin="5" DockPanel.Dock="Top">
             <Button.Content>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+   <AddIn Type="Application">
+      <Name>BIMToolKit</Name>
+      <Assembly>BIMToolKit\RibbonBuilder.dll</Assembly>
+      <AddInId>8C0A9E25-4444-421c-B1AB-702F73FA551F</AddInId>
+      <FullClassName>RibbonBuilder.RibbonBuilder</FullClassName>          
+      <VendorId>ADSK</VendorId>     
+  </AddIn> 
+</RevitAddIns>

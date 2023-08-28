@@ -5,12 +5,18 @@ using Prism.Mvvm;
 
 namespace Feature.ViewModels
 {
-    internal class MainWindowViewModel: BindableBase
+    internal class MainWindowViewModel : BindableBase
     {
         private readonly ILog _log;
         private readonly IProgressPercent _progressPercent;
         private readonly IBusinessLogic _businessLogic;
 
+        /// <summary>
+        /// Конструктор получает из контейнера необходимые для работы объекты
+        /// </summary>
+        /// <param name="log">Объект для отображения логов в UI</param>
+        /// <param name="progressPercent">Объект для отображения прогресса в UI</param>
+        /// <param name="businessLogic">Объект, содержащий бизнес-логику проекта</param>
         public MainWindowViewModel(
             ILog log,
             IProgressPercent progressPercent,
@@ -22,7 +28,6 @@ namespace Feature.ViewModels
             _progressPercent.PercentChanged += OnProgressPercent;
             _businessLogic = businessLogic;
         }
-
 
         /// <summary>
         /// Состояние ProgressBar
@@ -58,6 +63,9 @@ namespace Feature.ViewModels
         }
         #endregion
 
+        /// <summary>
+        /// Команда, выполняющаяся при нажатии на кнопку
+        /// </summary>
         public DelegateCommand DoIt
         {
             get
@@ -65,7 +73,7 @@ namespace Feature.ViewModels
                 return new DelegateCommand(
                      async () =>
                      {
-                         Result result = await _businessLogic.DoIt();                         
+                         Result result = await _businessLogic.DoIt();
                      });
             }
         }
